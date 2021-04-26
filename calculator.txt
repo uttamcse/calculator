@@ -17,7 +17,7 @@ scanf("%d %c %d",&a,&opre,&b);
 
 switch(opre)
 {
-	case '+':
+			case '+':
 		printf("adition of %d and %d is %d",a,b,a+b);
 		break;
 		
