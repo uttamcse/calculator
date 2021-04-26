@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#define max_marks 300
+
+
+int main ()
+{
+
+int a,b;
+char opre;
+
+printf("enter the  num1  operator num2\n");
+scanf("%d %c %d",&a,&opre,&b);
+
+
+
+switch(opre)
+{
+	case '+':
+		printf("adition of %d and %d is %d",a,b,a+b);
+		break;
+		
+			case '-':
+		printf("subtraction of %d and %d is %d",a,b,a-b);
+		break;
+		
+			case '*':
+		printf("multiplication of %d and %d is %d",a,b,a*b);
+		break;
+		
+			case '/':
+		printf("division of %d and %d is %d",a,b,a/b);
+		break;
+}
+	return 0;
+}
